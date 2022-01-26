@@ -1,0 +1,90 @@
+*{
+ margin:0%;
+ padding: 0%;  
+ box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+#main{
+ display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background-color: turquoise;
+}
+#A {
+   position: relative;
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    background-image: url(https://www.pngkit.com/png/full/569-5691640_black-mug-15oz-live-laugh-love-live-laugh.png);
+    background-position: left;
+    background-repeat: no-repeat;
+background-size: 60%;
+}
+
+
+#heading{
+   
+    font-size: 100px;
+    position: absolute;
+    font-family: hurshey;
+    color: white;
+
+}
+#heading:hover{
+    -webkit-text-fill-color: rgb(56, 42, 56);
+    -webkit-text-stroke-width: 0.3px;
+    -webkit-text-stroke-color:grey ;
+    color: transparent;
+    cursor: pointer;
+}
+
+   
+#heart{
+    position: absolute;
+    height: 130px;
+    width: 130px;
+    border-radius: 50%;
+    top: 80%;
+    left: 80%;
+
+    background-repeat: no-repeat;
+background-size:100% ;
+background-position: bottom right;
+border: 10px;
+background-image: url(https://banner2.cleanpng.com/20180408/dtw/kisspng-coffee-cup-heart-love-mug-cold-coffee-5acad7ec094591.673393731523242988038.jpg);
+  
+}
+#heart{
+    color: transparent;
+    -webkit-text-stroke-fill-color: grey;
+    -webkit-text-stroke-width:0.5px ;
+    -webkit-text-stroke-color: tomato;
+    
+}
+#heart:hover{
+background: rgba(62, 68, 67, 0.384);
+cursor: pointer;
+}
+
+   #left{
+      
+    height: 100%;
+       width:60% ;
+       background-color: rgb(95, 158, 160);
+       font-family: hurshey;
+       
+       padding: 20px;
+       font-size: 120%;
+       top: 5%;
+       
+   }
+   #heart handle{
+       height: 30%;
+       width: 30%;
+       background-image: url();
+   }

@@ -1,0 +1,32 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+   display: flex;
+    height: 100%;
+    width: 100%;
+}
+#left{
+    height: 100%;
+    width: 40%;
+    background-color: black;
+    background-image:url(https://images.unsplash.com/photo-1642287341733-1cab1f85edbf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80) ;
+
+background-size: cover;
+
+
+}
+
+#right{
+    height: 100%;
+    width: 60%;
+    background-color:    aquamarine ;
+    padding: 200px;
+}
+  
